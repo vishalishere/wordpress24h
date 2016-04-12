@@ -435,7 +435,7 @@
                                     "autoUpgradeMinorVersion": false,
                                     "settings": {
                                         "fileUris": [
-                                            "https://gist.githubusercontent.com/chgeuer/88bf5ac35512957e4babd0378ef5eb78/raw/install.sh",
+                                            "https://raw.githubusercontent.com/chgeuer/wordpress24h/master/ARM/install.sh",
                                             "[concat(parameters('deploymentBitsBaseUrl'), parameters('serviceBitArchiveFilename'), parameters('deploymentBitsSas'))]"
                                         ],
                                         "commandToExecute": "[concat('bash install.sh ', parameters('serviceBitArchiveFilename'), ' ', variables('publicIPs').domainNames.www)]"
